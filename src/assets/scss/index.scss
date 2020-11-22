@@ -1,0 +1,19 @@
+pre,
+.code-toolbar {
+    position: relative;
+    width: 100%;
+    white-space: break-spaces!important;
+};
+
+.prism-code {
+    white-space: break-spaces!important;
+    div,
+    span,
+    p{
+        white-space: break-spaces!important;
+        .token,
+        .plain{
+            white-space: break-spaces!important;
+        }
+    }
+}
